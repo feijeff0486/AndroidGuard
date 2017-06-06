@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DischangeCounter</string>
+    <string name="app_traffic">应用流量使用情况</string>
+    <string name="app_mobile_traffic">应用数据流量使用情况</string>
+</resources>

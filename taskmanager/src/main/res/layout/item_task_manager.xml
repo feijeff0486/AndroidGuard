@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_vertical"
+    tools:ignore="RtlSymmetry"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_task_icon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        tools:ignore="ContentDescription"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_task_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingStart="5dp"
+                android:maxLines="1"
+                android:text="@string/title_text"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cb_task_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingRight="5dp"
+                android:focusable="false"
+                android:clickable="false"
+                tools:ignore="RtlHardcoded"
+                android:button="@drawable/btn_check"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_task_memory_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:text="@string/mem_used"
+            android:textColor="#99000000"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

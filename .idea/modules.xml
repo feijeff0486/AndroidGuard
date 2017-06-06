@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GuardforAndroid.iml" filepath="$PROJECT_DIR$/GuardforAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/applock/applock.iml" filepath="$PROJECT_DIR$/applock/applock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appmanager/appmanager.iml" filepath="$PROJECT_DIR$/appmanager/appmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cacheclear/cacheclear.iml" filepath="$PROJECT_DIR$/cacheclear/cacheclear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desktop/desktop.iml" filepath="$PROJECT_DIR$/desktop/desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dischangecounter/dischangecounter.iml" filepath="$PROJECT_DIR$/dischangecounter/dischangecounter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screenfit/screenfit.iml" filepath="$PROJECT_DIR$/screenfit/screenfit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taskmanager/taskmanager.iml" filepath="$PROJECT_DIR$/taskmanager/taskmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testvirus/testvirus.iml" filepath="$PROJECT_DIR$/testvirus/testvirus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/virusclear/virusclear.iml" filepath="$PROJECT_DIR$/virusclear/virusclear.iml" />
+    </modules>
+  </component>
+</project>

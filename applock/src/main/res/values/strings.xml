@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppLock</string>
+    <string name="app_title">应用名称</string>
+    <string name="location_text">安装位置</string>
+</resources>

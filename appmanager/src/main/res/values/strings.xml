@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppManager</string>
+    <string name="loading">正在加载应用程序信息...</string>
+    <string name="sd_free_mem">SD卡可用：</string>
+    <string name="app_manager">程序管理器</string>
+    <string name="user_app_count">用户程序：</string>
+    <string name="inside_free_mem">内部存储可用：</string>
+</resources>
